@@ -1,17 +1,17 @@
-import React from 'react'
 import { NavLink } from 'react-router-dom'
+import './Navbar.css'
+
 const Navbar = () => {
   return (
-    <div>
-        <div>
-        <NavLink to = '/'   style={{color:"black"}}>Home</NavLink>
-        <NavLink to = '/Bookmark'   style={{color:"black"}}>Bookmark</NavLink>
-
+    <div className='navbar'>
         
-
-        </div>
+        <NavLink  to = '/'>Home</NavLink>
+        <NavLink to = '/Bookmark'>Bookmark</NavLink>
+        
     </div>
+    
   )
 }
 
 export default Navbar
+

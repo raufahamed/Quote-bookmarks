@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Noto+Sans:wght@500&display=swap');
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    background-color: blueviolet;
+}
+
+.Quote{
+
+    margin-top: 5rem;
+}
+.quotebox{
+    border-radius: 15px;
+    background-color: rgb(221, 82, 82);
+    color: white;
+    padding: 70px 13px 70px 13px;
+    margin: auto;
+    width: 650px;
+    text-align: center;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.quotebtn{
+    border-radius: 20px;
+    padding: 1px 50px 1px 50px;
+    margin-top: 2rem;
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
+    background-color: rgb(6, 213, 61);
+}
+
+.Bookmarks{
+
+    position: relative;
+ 
+}
+
+.bookMarkbtn{
+    position: absolute;
+    top: -1rem;
+    left: 2rem;
+    padding: 10px;
+    background-color: rgb(221, 82, 82);
+    border: none;
+    outline: none;
+   
+}
+
+
+.tagbtn{
+    font-size: 1rem;
+    border-radius: 10px;
+    padding: 0px 24px 0px 24px;
+    text-align: center;
+    
+}
+
+.loading{
+
+    font-size: 1.3rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.quotecontent{
+
+    font-size: 1.3rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.quoteauthor{
+    font-size: 1.2rem;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+
+
+
+@media screen and (max-width: 660px) {
+    .quotebox{
+          
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 450px;
+    }
+   
+    .bookMarkbtn{
+          top: -1.23rem;
+          left: -2rem;
+          
+    }
+   
+    
+}
+
+@media screen and (max-width: 490px) {
+    .quotebox{
+        margin: auto;
+        width: 400px;
+
+    }
+   
+    .bookMarkbtn{
+        left: -6rem;
+    
+    }
+}
+@media screen and (max-width: 420px) {
+    .quotebox{
+        margin: auto;
+        width: 350px;
+    }
+    .quotecontent,
+    .quoteauthor{
+
+        font-size: .95rem;
+    }
+.bookMarkbtn{
+        left: -7.6rem;
+    
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .quotebox{
+        margin: auto;
+        width: 300px;
+    }
+    .quotecontent,
+    .quoteauthor{
+
+        font-size: .75rem;
+    }
+.bookMarkbtn{
+        left: -7.6rem;
+    
+    }
+}
+
+
+

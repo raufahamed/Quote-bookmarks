@@ -1,5 +1,3 @@
-
-import './App.css'
 import Home from './Components/Home'
 import QuoteProvider from "./Context/quote"
 import { Route, Routes } from 'react-router-dom'

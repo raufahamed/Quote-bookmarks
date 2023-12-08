@@ -1,0 +1,35 @@
+.quotebox{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 2rem;
+    border-radius: 15px;
+    background-color: rgb(221, 82, 82);
+    color: white;
+    padding: 40px 7px 40px 7px;
+    max-width: 550px;
+    text-align: center;
+}
+
+.Bookmarks{
+
+    position: absolute;
+    margin-left: 26rem;
+    margin-top: 4rem;
+}
+
+
+
+
+.quotecontent{
+
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.quoteauthor{
+    font-size: 1rem;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+
